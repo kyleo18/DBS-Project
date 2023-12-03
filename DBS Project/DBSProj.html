@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html style="background-color:#000000">
+
+<head>
+    <script type="text/javascript" src="Common/webgl-utils.js"></script>
+    <script type="text/javascript" src="Common/initShaders.js"></script>
+    <script type="text/javascript" src="Common/MV.js"></script>
+    <script type="text/javascript" src="DbsProj.js"></script>
+</head>
+
+<body>
+    <div id="paragraph1" style="display: none;color:white">
+        <pre>Id,Type,Manufacturer,Model,Doors
+ 1,SUV,Honda,CR-V,4
+ 2,Compact,Hyundai,Elantra,4
+ 3,SUV,Jeep,Grand Cherokee,4
+ 4,SUV,Niassan,Pathfinder,4
+ 5,Muscle,Ford,Mustang,2
+ 6,Truck,Ford,F-150,4</pre>
+    </div>
+    <div id="paragraph2" style="display: none; color: white">
+        <pre>Id,Type,Manufacturer,Model,Doors
+5,Muscle,Ford,Mustang,2
+6,Truck,Ford,F-150,4</pre>
+    </div>
+    <div id="paragraph3" style="display: none; color: white">
+        <pre>Id,Type,Manufacturer,Model,Doors
+1,SUV,Honda,CR-V,4
+3,SUV,Jeep,Grand Cherokee,4
+4,SUV,Niassan,Pathfinder,4</pre>
+    </div>
+    <div id="paragraph4" style="display: none; color: white">
+        <pre>Id,Type,Manufacturer,Model,Doors
+5,Muscle,Ford,Mustang,2</pre>
+    </div>
+</body>
+<body>
+    <canvas id="gl-canvas" width="400" height="400">
+        Oops ... your browser doesn't support the HTML5 canvas element
+    </canvas>
+    <p></p>
+    <button id="q1">Full Table</button>
+    <p></p>
+    <button id="q2">Show Fords</button>
+    <p></p>
+    <button id="q3">Show SUV's'</button>
+    <p></p>
+    <button id="q4">Show 2 Doors</button>
+</body>
+<body>
+    <p style="color:white">
+        Hello professor, apologies this isn't exactly what was the assignment but I had a ton of troubles getting sql to connect to various servers.
+        I ended up using normal visual studio with a sqlite tool extension to create my table and queries and converted the results to a 
+        csv file I then put into the html file as text. The select statements and results are included in this project as sql and csv files
+        in the dbs project folder.'
+    </p>
+</body>
+</html>
